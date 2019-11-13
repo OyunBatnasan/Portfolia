@@ -69,11 +69,10 @@ a:hover {
 }
 
 footer{
-  padding:10rem;
+  padding:2rem;
   border: dashed red;
   text-align: center;
   font: bold;
-  font-size: 40px;
+  font-size: 20px;
   color: white
-
 }

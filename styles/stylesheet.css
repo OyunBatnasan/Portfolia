@@ -1,7 +1,7 @@
 body {
     background-color: lightblue;
-    font-family: fantasy;
-    font-size: 30px;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 20px;
     box-sizing: border-box;
     font-style: italic;
     font-weight: 800
@@ -23,40 +23,57 @@ nav {
   background-color: white;
   padding: 10px;
 }
-h2 {
+i{
+  color: blue;
+  padding-right:0.5em;
+  font-size: 25px;
+}
+h2, h3,h4 {
   color: brown;
   font-weight: 600;
-  font-style: oblique;
   font-style: italic;
+  text-shadow: 1px 1px 1px;
+  font-size: 25px;
+  text-align: left;
+  color: black;
+  padding: 1px;
 }
-section {
-  color: purple;
+
+.section-wrapper {
+border:dashed red;
+display: flex;
+background: lightgreen;
 }
+
+.left {
+flex:1;
+}
+
+.right {
+flex:3;
+}
+
 ul {
   list-style-type: lower-latin;
   margin: 30px;
   padding: 30px;
 }
-li {
-  color: green;
-  font-style: oblique;
-  font-size: 20px;
-  font-weight: bold;
-}
+
 img {
   border: 5px dashed purple;
-  width: 20%;
   height: auto;
+  width: 200px;
 }
 a:hover {
-  color: hotpink;
+  color: blue;
 }
-h3 {
-  background-color: lightpink;
-  text-shadow: 1px 1px 1px;
-  font-style: italic;
-  font-size: 25px;
+
+footer{
+  padding:10rem;
+  border: dashed red;
   text-align: center;
-  color: brown;
-  padding: 20px;
+  font: bold;
+  font-size: 40px;
+  color: white
+
 }

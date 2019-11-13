@@ -3,8 +3,8 @@ body {
   font-size: 18px;
   font-style: italic;
   font-weight: 800;
-  font-family: sans-serif;
   color: darkgreen;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 header {
   background-color: lightblue;
@@ -23,6 +23,14 @@ nav {
   padding: 1px;
   font-style: oblique;
   text-decoration-style: wavy;
+}
+ul{
+  list-style-type: none;
+}
+ul i{
+  color:darkblue;
+  padding-right: 1em;
+  font-size: 30px;
 }
 a:hover {
   color: blue;
@@ -56,6 +64,25 @@ p {
   color: darkblue;
   font-size: 18px
 }
+
+.boxes{
+  display: flex;
+  background:lightgreen;
+  padding: 20px;
+  margin:10px;
+}
+#right{
+  border: 2px dashed brown;
+  flex:1;
+  padding-left: 10px;
+
+}
+#left{
+  border: 2px dashed brown;
+  flex:3;
+  padding-right: 10px;
+}
+
 footer {
   text-align: center;
   font-size: 30px;

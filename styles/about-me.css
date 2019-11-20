@@ -6,6 +6,12 @@ body {
   color: darkgreen;
   font-family: 'Source Sans Pro', sans-serif;
 }
+
+p:hover{
+  background-color:lightblue;
+  font-size: 20px;
+  transition: 1s;
+}
 header {
   background-color: lightblue;
   padding: 30px;
@@ -32,6 +38,12 @@ ul i{
   padding-right: 1em;
   font-size: 30px;
 }
+li:hover{
+  color: red;
+  background: lightblue;
+  font-size: 30px;
+  transition-duration: 1s;
+}
 a:hover {
   color: blue;
 }
@@ -44,6 +56,11 @@ img {
   border: 5px dashed blue;
   width: 20%;
   font-weight: bold;
+}
+img:hover {
+  width: 400px;
+  height: 400px;
+  transition: 3s;
 }
 h1 {
   font-style: oblique;
@@ -64,6 +81,22 @@ p {
   color: darkblue;
   font-size: 18px
 }
+li:nth-last-child(3){
+  background-color:yellow;
+  font-weight: bold;
+  text-transform: full-width;
+}
+
+p:nth-child(4){
+  color: brown;
+  background-color: lightblue;
+}
+
+p:nth-last-child(3){
+  background: yellow;
+  margin-left: 100px;
+}
+
 
 .boxes{
   display: flex;
